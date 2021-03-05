@@ -4,13 +4,26 @@ import React from "react";
 import { Navbar } from "./navbar"; // aca lo que hafo es cargar el Navbar
 import { Jumbotron } from "./jumbotrom"; //aca lo que hafo es cargar el Cards
 import { Cards } from "./cards";
+import { Footer } from "./footer";
 //create your first component
 export function Home() {
 	return (
-		<div className="text-center mt-5">
-			<Navbar />
-			<Jumbotron />
-			<Cards />
+		<div className="container-fluid">
+			<div className="p-3 mb-2 bg-gradient-dark text-white">
+				<Navbar />
+			</div>
+			<br></br>
+			<div className="container">
+				<div className="container">
+					<Jumbotron />
+				</div>
+				<br></br>
+				<div className="container">
+					<Cards />
+				</div>
+			</div>
+
+			<Footer />
 		</div>
 	);
 }
