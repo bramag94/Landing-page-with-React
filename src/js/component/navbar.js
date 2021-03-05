@@ -2,9 +2,9 @@ import React from "react";
 
 export function Navbar() {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-dark">
+		<nav className="navbar navbar-expand-lg navbar-light text-white bg-dark ">
 			<div className="container-fluid">
-				<a className="navbar-brand" href="#">
+				<a className="navbar-brand text-white" href="#">
 					Navbar
 				</a>
 				<button
@@ -23,20 +23,20 @@ export function Navbar() {
 					<ul className="navbar-nav me-auto mb-2 mb-lg-0">
 						<li className="nav-item">
 							<a
-								className="nav-link active"
+								className="nav-link active text-white"
 								aria-current="page"
 								href="#">
 								Home
 							</a>
 						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#">
+						<li className="nav-item text-white">
+							<a className="nav-link text-white" href="#">
 								Link
 							</a>
 						</li>
 						<li className="nav-item dropdown">
 							<a
-								className="nav-link dropdown-toggle"
+								className="nav-link dropdown-toggle text-white"
 								href="#"
 								id="navbarDropdown"
 								role="button"
@@ -67,9 +67,9 @@ export function Navbar() {
 								</li>
 							</ul>
 						</li>
-						<li className="nav-item">
+						<li className="nav-item  text-white">
 							<a
-								className="nav-link disabled"
+								className="nav-link disabled text-white"
 								href="#"
 								tabIndex="-1"
 								aria-disabled="true">
@@ -79,13 +79,14 @@ export function Navbar() {
 					</ul>
 					<form className="d-flex">
 						<input
-							className="form-control me-2"
+							className="form-control me-2 border-white"
 							type="search"
 							placeholder="Search"
 							aria-label="Search"
 						/>
+
 						<button
-							className="btn btn-outline-success"
+							className="btn btn-outline-success border-white text-white"
 							type="submit">
 							Search
 						</button>

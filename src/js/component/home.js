@@ -9,7 +9,7 @@ import { Footer } from "./footer";
 export function Home() {
 	return (
 		<div className="container-fluid">
-			<div className="p-3 mb-2 bg-gradient-dark text-white">
+			<div className="p-3 mb-2 text-white bg-gradient-dark">
 				<Navbar />
 			</div>
 			<br></br>
